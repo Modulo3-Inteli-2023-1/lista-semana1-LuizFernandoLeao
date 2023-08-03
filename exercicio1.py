@@ -19,10 +19,10 @@ def multiplas_operacoes(a1, a2):
     else:
         divisao = 0
 
-    return soma, subtracao, multiplicacao, divisao
+    return (soma, subtracao, multiplicacao, divisao)
 
-# Exemplo de uso da função:
-a1 = 12
+# Uso da função:
+a1 = 2
 a2 = 4
 resultado = multiplas_operacoes(a1, a2)
 print(resultado)
